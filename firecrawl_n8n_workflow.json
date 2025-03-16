@@ -4,7 +4,7 @@
     {
       "parameters": {
         "httpMethod": "GET",
-        "url": "http://localhost:8000/firecrawl/extract",
+        "url": "https://primary-production-35d4.up.railway.app/firecrawl/extract",
         "queryParameters": {
           "parameters": [
             {
@@ -24,7 +24,7 @@
     {
       "parameters": {
         "httpMethod": "POST",
-        "url": "http://localhost:8000/firecrawl/crawl",
+        "url": "https://primary-production-35d4.up.railway.app/firecrawl/crawl",
         "jsonParameters": true,
         "options": {},
         "bodyParameters": {
