@@ -59,6 +59,11 @@ async def root():
         "status": "operational"
     }
 
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for Railway."""
+    return {"status": "healthy"}
+
 @app.get("/sse")
 async def sse(request: Request):
     """SSE endpoint for tool discovery."""
