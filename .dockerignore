@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+
+# Project specific
+venv
+__pycache__
+*.pyc
+.env
+.env.*
+
+# Editor specific
+.vscode
+.idea
+
+# Keep dist folder
+!n8n-nodes-mcp/dist 
